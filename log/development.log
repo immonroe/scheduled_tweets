@@ -1,0 +1,666 @@
+Started GET "/" for 127.0.0.1 at 2024-08-14 12:07:52 -0400
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/manny/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/manny/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.2.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 37ms (Views: 10.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:30:52 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2024-08-14 12:30:52 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:31:19 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:32:28 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:32:29 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:34:13 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:35:28 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/" for 127.0.0.1 at 2024-08-14 12:35:32 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/manny/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/manny/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.2.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:35:38 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 12:38:00 -0400
+  
+ActionController::RoutingError (uninitialized constant AboutController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant AboutController)
+NameError (uninitialized constant AboutController)
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 13:33:06 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 993.2ms | GC: 80.3ms)
+Completed 200 OK in 1046ms (Views: 995.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 82.0ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:33:07 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 13:35:58 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | GC: 0.0ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:35:58 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 13:41:12 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | GC: 5.6ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 5.6ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:41:12 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 13:41:55 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:6:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2024-08-14 13:42:11 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | GC: 15.9ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 15.9ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:42:11 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 1.0ms | GC: 0.5ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 13:52:52 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | GC: 1.9ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.9ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:52:52 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 13:54:56 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | GC: 0.3ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:54:56 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 13:58:34 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | GC: 3.1ms)
+Completed 200 OK in 25ms (Views: 20.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 6.2ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 13:58:34 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:04:27 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | GC: 1.2ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:04:28 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:04:31 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:05:52 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | GC: 5.5ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 5.5ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:05:53 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:05:57 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:06:11 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | GC: 0.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:06:11 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.3ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:06:13 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:06:13 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:06:15 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:18:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 102.1ms | GC: 16.2ms)
+Completed 200 OK in 134ms (Views: 107.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 16.2ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:18:31 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:18:43 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:19:33 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | GC: 13.3ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 13.3ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:19:34 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:19:35 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.6ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:19:37 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.3ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:19:37 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.3ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:20:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:20:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:20:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:22:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 97.3ms | GC: 15.4ms)
+Completed 200 OK in 127ms (Views: 103.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 15.4ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:22:43 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about-us" for 127.0.0.1 at 2024-08-14 14:22:44 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:22:46 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about-us" for 127.0.0.1 at 2024-08-14 14:22:47 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about-us" for 127.0.0.1 at 2024-08-14 14:24:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about-us"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:24:24 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | GC: 2.1ms)
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.9ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:24:24 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:24:25 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:24:26 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:24:26 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:21 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | GC: 1.0ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `navbar_path' for an instance of #<Class:0x000000011ebd0780>):
+
+Causes:
+NameError (undefined local variable or method `navbar_path' for an instance of #<Class:0x000000011ebd0780>)
+    1: <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= link_to "Navbar", navbar_path, class:"navbar-brand" %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/shared/_navbar.html.erb:3
+app/views/layouts/application.html.erb:25
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:45 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | GC: 11.8ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 13.9ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:26:46 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:26:46 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:47 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:48 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:26:48 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | GC: 1.6ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:49 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:50 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:26:50 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:51 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:26:51 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:26:53 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:38:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | GC: 3.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 115.8ms | GC: 27.1ms)
+Completed 200 OK in 148ms (Views: 122.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 27.4ms)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2024-08-14 14:38:25 -0400
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 1.6ms | GC: 1.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-08-14 14:38:26 -0400
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | GC: 2.8ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-14 14:38:26 -0400
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | GC: 3.3ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 4.9ms)
+
+
