@@ -14,4 +14,26 @@ class PasswordResetsController < ApplicationController
       redirect_to password_reset_edit_path, alert: 'No account found with that email address.'
     end
   end
+
+  def edit
+    @user = User.find_signed!(params[:token], purpose: 'password_reset')
+  rescue ActiveSupport::MessageVerifier::InvalidSignature
+    redirect_to sign_in_path, alert: 'Your token has expired. Please try again.'
+  end
+
+  def update
+    @user = User.find_signed!(params[:token], purpose: 'password_reset')
+    if @user.update(password_params)
+      redirect_to sign_in_path, notice: 'Yourpassword was reset successfully. Please sign in.'
+    else
+      render :edit, status: :bad_request
+
+    end
+  end
+
+  private
+
+  def password_params
+    params.require(:user).permit(:password, :password_confirmation)
+  end
 end
